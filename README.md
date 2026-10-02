@@ -1,2 +1,22 @@
 # distributed-code-execution
-This repo contains code for a distributed system that can execute code on a cloud with a distributed systems integrations that works in unreliable conditions.
+
+This repository contains a starter structure for a distributed code execution service.
+
+## Directory structure
+
+```text
+.
+├── cmd/
+│   └── api/
+│       └── main.go
+├── internal/
+│   ├── api/
+│   ├── executor/
+│   └── models/
+├── tests/
+├── Dockerfile
+├── docker-compose.yml
+├── go.mod
+├── Makefile
+└── README.md
+```
